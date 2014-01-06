@@ -1,0 +1,191 @@
+body {
+	background: #fff;
+}
+
+em {
+	font-style: italic;
+}
+
+p {
+	color: #000;
+	font-size: 1.6em;
+	font-family: "Quaver Serif";
+}
+
+a {
+	color: #fff;
+}
+
+article {
+	margin-bottom: 2.5em;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.links {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+main {
+	padding: 10px;
+	padding-bottom: 200px;   /* Height of the footer element */
+}
+
+footer {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: .5%;
+}
+
+.socialicon {
+	width: 2%;
+	margin-right: 1em;
+}
+
+.socialicon:hover {
+	opacity:0.7;
+}
+
+button {
+	font-size: 1em;
+	width: 30%;
+	background-color: #b163a3;
+	box-shadow: 0 3px 2px -2px rgba(0,0,0,0.4);
+	border-color: transparent;
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+}
+
+button:focus {
+	background-color: #a05492;
+	outline: none;
+}
+
+button:hover, button:active {
+	background-color: #a05492;
+}
+
+h1 {
+	font-size: 7em;
+	font-family: "Lavanderia";
+	font-weight: 900;
+	margin-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+h3 {
+	font-size: 2.7em;
+	font-family: "Quaver Serif";
+	margin-top: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+@font-face {
+	font-family: "Lavanderia";
+	src: url('../fonts/Lavanderia Regular.otf');
+}
+
+@font-face {
+	font-family: "Quaver Serif";
+	src: url('../fonts/QuaverSerif.otf');
+}
+
+
+/* *******************
+*
+* Media Queries
+*
+******************* */
+
+@media only screen and (min-width: 300px) and (max-width: 479px) {
+	h1 {
+		font-size: 4.5em;
+	}
+
+	h3 {
+		font-size: 2.2em;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	button {
+		display: block;
+		width: 100%;
+	}
+
+	.socialicon {
+		width: 8%;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) { 
+	h1 {
+		font-size: 5.3em;
+	}
+
+	h3 {
+		font-size: 2.5em;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	button {
+		display: block;
+		width: 100%;
+	}
+
+	.socialicon {
+		width: 6%;
+	}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 740px) { 
+	button {
+		display: block;
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width: 641px) and (max-width: 960px) { 
+	h1 {
+		font-size: 6em;
+	}
+
+	h3 {
+		font-size: 2.5em;
+	}
+
+	.socialicon {
+		width: 5%;
+	}
+}
+
+/*label {
+	font-size: 1em;
+	font-family: "Quaver Serif";
+}*/
+
+/*h5 {
+	font-size: 2em;
+	font-family: "Quaver Serif";
+}*/
