@@ -8,7 +8,7 @@ em {
 
 p {
 	color: #000;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	font-family: "Quaver Serif";
 }
 
@@ -56,7 +56,7 @@ footer {
 	opacity:0.7;
 }
 
-button {
+.button {
 	font-size: 1em;
 	width: 30%;
 	background-color: #b163a3;
@@ -64,17 +64,17 @@ button {
 	border-color: transparent;
 }
 
-button:active {
+.button:active {
 	position: relative;
 	top: 1px;
 }
 
-button:focus {
+.button:focus {
 	background-color: #a05492;
 	outline: none;
 }
 
-button:hover, button:active {
+.button:hover, .button:active {
 	background-color: #a05492;
 }
 
@@ -88,7 +88,7 @@ h1 {
 }
 
 h3 {
-	font-size: 2.7em;
+	font-size: 1.8em;
 	font-family: "Quaver Serif";
 	margin-top: 3%;
 	padding-left: 5%;
@@ -125,7 +125,7 @@ h3 {
 		display: none;
 	}
 
-	button {
+	.button {
 		display: block;
 		width: 100%;
 	}
@@ -148,7 +148,7 @@ h3 {
 		display: none;
 	}
 
-	button {
+	.button {
 		display: block;
 		width: 100%;
 	}
@@ -159,7 +159,7 @@ h3 {
 }
 
 @media only screen and (min-width: 641px) and (max-width: 740px) { 
-	button {
+	.button {
 		display: block;
 		width: 100%;
 	}
